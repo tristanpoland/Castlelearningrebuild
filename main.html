@@ -3,7 +3,7 @@
 <script>
 function close_window() {
   if (confirm("Close Window?")) {
-    window.close();
+    open(location, '_self').close();
   }
 }
 </script>

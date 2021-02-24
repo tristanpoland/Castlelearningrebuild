@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-
+<script>
+function close_window() {
+  if (confirm("Close Window?")) {
+    close();
+  }
+}
+</script>
 <head>
   <meta charset="utf-8">
   <title>Castle Learning Dashboard</title>
@@ -594,10 +600,4 @@
 </body>
 
 </html>
-<script>
-function close_window() {
-  if (confirm("Close Window?")) {
-    close();
-  }
-}
-<script>
+
